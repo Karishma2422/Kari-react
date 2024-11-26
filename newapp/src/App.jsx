@@ -7,6 +7,7 @@ import {
   Routes, Route
 } from 'react-router-dom'
 import UseState from './components/day3/UseStates';
+import UseStateTwo from './components/day4/UseState';
 function App() {
   return (
   <div className='App'>
@@ -15,6 +16,7 @@ function App() {
     <Route path="/Login" element={<Login />} />
     <Route path="/Register" element={<Register />} />
     <Route path="/UseState" element={<UseState />} />
+    <Route path="/UseStateTwo" element={<UseStateTwo />} />
     </Routes>
   </div>
   )
