@@ -14,6 +14,12 @@ function Home (){
     function redirectToUseStatePageTwo(){
         router("/UseStateTwo");
     }
+    function dyanamicdata(){
+        router("/DyanamicRouting/100");
+    }
+    function useeffectlogin(){
+        router("/useeffectlogin");
+    }
     return(
         <div>
             <h1>Welcome to Home page </h1>
@@ -21,6 +27,8 @@ function Home (){
             <button onClick={redirectToRegisterPage}>GO TO REGISTER </button>
             <button onClick={redirectToUseStatePage}>GO TO USESTATE </button>
             <button onClick={redirectToUseStatePageTwo}>GO TO USESTATE TWO </button>
+            <button onClick={dyanamicdata}>GO TO DYANAMIC DATA</button>
+            <button onClick={useeffectlogin}>EMAIL LOGIN PAGE</button>
         </div>
     )
 }
